@@ -1,0 +1,20 @@
+{
+  "case001":
+  {
+    "url": "http://api.apishop.net/common/weather/get15DaysWeatherByArea",
+    "apiKey": "7AGvisd25c65a0f67a96a1da5955f8bf9a8db3157d119f8",
+    "area": "长沙",
+    "areaID": "101250101",
+    "expected": "请求成功",
+    "status_code": 200
+  },
+  "case002":
+  {
+    "url": "http://api.apishop.net/common/weather/get15DaysWeatherByArea",
+    "apiKey": "7AGvisd25c65a0f67a96a1da5955f8bf9a8db3157d119f8",
+    "area": "02",
+    "areaID": "101250188",
+    "expected": "未知错误/请求失败",
+    "status_code": 200
+  }
+}
